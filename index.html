@@ -24,7 +24,7 @@
             </ol>
 
             <section>
-                Basic Text Tags
+                <h3>Basic Text Tags</h3>
                 <ul>
                     <li><code>p</code> - for paragraph text, usually multiple lines</li>
                     <li><code>em</code> - for text that needs to be emphasized in some way (this adds meaning)</li>
@@ -38,10 +38,11 @@
                     <li><code>samp</code> - for sample output from a computer</li>
                     <li><code>var</code> - for variables in a computer program</li>
                 </ul>
-                When choosing a tag pair to wrap your content in, be sure to think about what that your text actually is. Is it just a paragraph? Then paragraph tags are fine. Is there a more specific way to describe that content? Maybe it's an address or a code sample. There are a lot of semantic HTML tags for text to help you define your content in the best and most specific way possible.
+                <p>When choosing a tag pair to wrap your content in, be sure to think about what that your text actually is. Is it just a paragraph? Then paragraph tags are fine. Is there a more specific way to describe that content? Maybe it's an address or a code sample. There are a lot of semantic HTML tags for text to help you define your content in the best and most specific way possible.</p>
 
-                Remember: HTML tags aren't used to style the text a certain way. If you want bold text but that text isn't actually important to the user or meaning of your text, don't use <code>strong</code> or <code>b</code> tags or wrap it in a heading tag pair.
+                <p>Remember: HTML tags aren't used to style the text a certain way. If you want bold text but that text isn't actually important to the user or meaning of your text, don't use <code>strong</code> or <code>b</code> tags or wrap it in a heading tag pair.</p>
             </section>
+
             <section>
                 Tags for Grouping and Describing Content
                 headings
@@ -58,24 +59,26 @@
                 The section is a more flexible semantic container than those we'll learn about in the next module. All sections require headings, so be sure that you understand which level is appropriate for your heading inside of any sections. You can also have a section with its own heading nested inside of another section with a heading (if the section nested inside is a sub-topic of the outer section).
             </section>
                 
+            <section>
+                Special Characters
+                <code>&copy;</code> - the copyright symbol
+                <code>"&nbsp;"</code> - the non-breaking space symbol (used to ensure that two words are always displayed next to each other on the same line, this doesn't include or need the quotes, that's just so you can see it)
+                <code>&amp;</code> - the ampersand (not using the entity character can cause issues on your page)
+                <code>&lt;</code> and <code>&gt;</code> - the less than and greater than characters will allow you to type these on your page and in code samples without them breaking your HTML (which uses those characters a lot!)
+                
+                These special characters come in handy on the web. Some characters are things that you can't just type out on your computer, while others replace characters that could break your code. They can add formatting (like in the case of a non-breaking space), but they should not be used to replace CSS. There are a lot of these characters available, be sure to check them out. Your zyBook includes a link to a table of entity characters that is a good thing to bookmark.
+            </section>
 
-            Special Characters
-            <code>&copy;</code> - the copyright symbol
-            <code>"&nbsp;"</code> - the non-breaking space symbol (used to ensure that two words are always displayed next to each other on the same line, this doesn't include or need the quotes, that's just so you can see it)
-            <code>&amp;</code> - the ampersand (not using the entity character can cause issues on your page)
-            <code>&lt;</code> and <code>&gt;</code> - the less than and greater than characters will allow you to type these on your page and in code samples without them breaking your HTML (which uses those characters a lot!)
-            
-            These special characters come in handy on the web. Some characters are things that you can't just type out on your computer, while others replace characters that could break your code. They can add formatting (like in the case of a non-breaking space), but they should not be used to replace CSS. There are a lot of these characters available, be sure to check them out. Your zyBook includes a link to a table of entity characters that is a good thing to bookmark.
-            
-            
-            Lists
-            ol - for ordered lists, or a list of steps that need to be completed in an order or items that will be counted
-            ul - unordered (bulleted) lists, those that don't have to be completed in a certain order
-            li - an individual list item inside of a list, this tag will work whether the list is ordered or unordered
-                    
-            Throughout this page, we use lists to give a list of the tags related to the topic given by the heading in each section. Lists can be very useful, as there is plenty of content that is displayed in a list format, but they also help accessibility. Lists will tell screen reader users how many elements there are in that list (they can use the list items to do that), which means that a user knows how many items are in the group that they'll have to listen to. We'll use these a lot in our pages, especially when adding navigation.
+            <section>
+                Lists
+                ol - for ordered lists, or a list of steps that need to be completed in an order or items that will be counted
+                ul - unordered (bulleted) lists, those that don't have to be completed in a certain order
+                li - an individual list item inside of a list, this tag will work whether the list is ordered or unordered
+                        
+                Throughout this page, we use lists to give a list of the tags related to the topic given by the heading in each section. Lists can be very useful, as there is plenty of content that is displayed in a list format, but they also help accessibility. Lists will tell screen reader users how many elements there are in that list (they can use the list items to do that), which means that a user knows how many items are in the group that they'll have to listen to. We'll use these a lot in our pages, especially when adding navigation.
 
-            You can also nest lists inside of each other, as you saw in the headings and grouping content section above. Making your content easier to scan and understand improves the user experience, and lists can be a big part of that.
+                You can also nest lists inside of each other, as you saw in the headings and grouping content section above. Making your content easier to scan and understand improves the user experience, and lists can be a big part of that.
+            </section>
 
         </main>
 
